@@ -7,6 +7,16 @@ body {
     background-color: hsl(30, 54%, 90%);
 }
 
+img {
+    border-radius: 30px;
+    width: 80%;
+    height: auto;
+}
+
+hr {
+    border: 1px solid hsl(0, 0, 90%);
+}
+
 .about {
     background-color: hsl(330, 100%, 98%);
     border-radius: 25px;
@@ -17,9 +27,14 @@ body {
     color: hsl(332, 51%, 32%);
 }
 
+.substrate {
+    padding: 15%;
+}
+
 .main {
     background-color: hsl(0, 0%, 100%);
     border-radius: 25px;
+    padding: 5%;
 }
 
 .serif-font {
