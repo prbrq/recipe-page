@@ -8,23 +8,50 @@ body {
 }
 
 img {
-    border-radius: 30px;
-    width: 80%;
-    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: xx-large;
 }
 
 hr {
     border: 1px solid hsl(0, 0, 90%);
 }
 
-.about {
+.estimates {
     background-color: hsl(330, 100%, 98%);
-    border-radius: 25px;
-    text-indent: 25px;
+    border-radius: 10px;
+    text-indent: 5%;
 }
 
-.about h2 {
+li {
+    margin: 20px;
+}
+
+.estimates h2 {
     color: hsl(332, 51%, 32%);
+}
+
+ul li::marker {
+    font-size: x-small;
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.estimates ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+ul li::marker {
+    color: hsl(14, 45%, 36%);
 }
 
 .substrate {
