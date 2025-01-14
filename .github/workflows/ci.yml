@@ -1,8 +1,7 @@
 name: Deploy Static Site
 
 permissions:
-  contents: read
-  pages: write
+  contents: write
 
 on:
   push:
