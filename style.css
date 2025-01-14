@@ -1,7 +1,31 @@
-*{
+* {
     font-size: 16px;
+    font-family: 'Outfit';
 }
 
-body{
+body {
     background-color: hsl(30, 54%, 90%);
+}
+
+.about {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 25px;
+    text-indent: 25px;
+}
+
+.about h2 {
+    color: hsl(332, 51%, 32%);
+}
+
+.main {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+}
+
+.serif-font {
+    font-family: 'Young Serif';
+}
+
+body h2 {
+    color: hsl(14, 45%, 36%);
 }
