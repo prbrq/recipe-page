@@ -19,6 +19,10 @@ h1 {
     font-size: xx-large;
 }
 
+h2 {
+    font-size: x-large;
+}
+
 hr {
     border: 1px solid hsl(0, 0, 90%);
 }
@@ -27,6 +31,20 @@ hr {
     background-color: hsl(330, 100%, 98%);
     border-radius: 10px;
     text-indent: 5%;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    /* TODO: Need fix! */
+    border-bottom: 1px solid red;
+}
+
+td:nth-child(even) {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
 }
 
 li {
@@ -55,7 +73,8 @@ ul li::marker {
 }
 
 .substrate {
-    padding: 15%;
+    width: 750px;
+    margin: auto;
 }
 
 .main {
