@@ -1,10 +1,12 @@
 * {
+    box-sizing: border-box;
     font-size: 16px;
     font-family: 'Outfit';
 }
 
 body {
     background-color: hsl(30, 54%, 90%);
+    margin: 25px;
 }
 
 img {
@@ -31,6 +33,7 @@ hr {
     background-color: hsl(330, 100%, 98%);
     border-radius: 10px;
     text-indent: 5%;
+    padding: 10px;
 }
 
 table {
@@ -89,4 +92,15 @@ ul li::marker {
 
 body h2 {
     color: hsl(14, 45%, 36%);
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        margin: 0px;
+    }
+    
+    .substrate {
+        width: 100%;
+        background-color: hsl(0, 0%, 100%);
+    }
 }
